@@ -1,10 +1,6 @@
 # Redfin - Google Pixel 5 - AOSP 14
 
-# XDA MODS GFY UNPLEASURABLY
-
-
 # AOSimPle by stayboogy
-
 
 ## Features
 
@@ -18,8 +14,6 @@
 #### - Traditional GApps NOT Supported
 #### - Meant For Those Who DO NOT NEED SPYWARE FROM GOOGLE ON THEIR DEVICE
 #### - Aurora Store Included For Convenience
-
-
 
 ![App Screenshot](https://codeberg.org/stayboogy/stayboogy_Android-Redfin/raw/branch/14.0.0.r28/Release/screenshots/Number1.png)
 
@@ -86,7 +80,7 @@ m -j16
 ```
 
 
-# LICENSE FOR THE HATING RETALIATING, TITTY BABY, LOSER, GEEK, NO LIFE, XDA MODS
+# LICENSE
 
 Apache License
 Version 2.0, January 2004
