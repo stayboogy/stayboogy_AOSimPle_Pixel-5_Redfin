@@ -1,4 +1,4 @@
-# Redfin - Google Pixel 5 - AOSP 14
+# AOSimPle for Google Pixel 5
 
 # AOSimPle by stayboogy
 
