@@ -1,0 +1,12 @@
+sudo fallocate -l 32768 /mnt/big.swap
+sudo chmod 600 /mnt/big.swap
+sudo dd if=/dev/zero of=/mnt/big.swap bs=1024 count=33554432
+sudo chmod 600 /mnt/big.swap
+sudo mkswap /mnt/big.swap
+sudo swapon /mnt/big.swap
+sudo gedit /etc/fstab
+sudo sysctl vm.swappiness=45
+sudo gedit /etc/fstab
+# add to fstab
+/mnt/big.swap	none	swap	sw	0	0
+

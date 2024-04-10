@@ -1,0 +1,7 @@
+cd vendor
+mkdir google
+cd google
+git lfs install
+git clone https://github.com/TheMuppets/proprietary_vendor_google_redfin.git -b lineage-21
+mv ./proprietary_vendor_google_redfin ./redfin
+exit

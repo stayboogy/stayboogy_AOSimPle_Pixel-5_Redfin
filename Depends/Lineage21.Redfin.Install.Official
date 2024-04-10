@@ -1,0 +1,8 @@
+fastboot flash boot boot.img
+fastboot flash dtbo dtbo.img
+fastboot flash vendor_boot vendor_boot.img
+reboot recovery
+factory reset
+adb sideload ota
+reboot system
+

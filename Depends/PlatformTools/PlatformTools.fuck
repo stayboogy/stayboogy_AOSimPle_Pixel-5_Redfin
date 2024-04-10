@@ -1,0 +1,4 @@
+sudo usermod -aG plugdev $LOGNAME
+sudo usermod -aG plugdev $USER
+
+export PATH="$HOME/.droidtools:$PATH"

@@ -1,0 +1,3 @@
+split -b 1M ./redfin.zip
+
+cat x* > ./redfin.zip

@@ -1,0 +1,96 @@
+Here is my personal build of AOSP 14 for the Pixel 5
+
+
+AOSimPle for Google Pixel 5
+
+
+kernel source:
+refs/tags/android-14.0.0_r28 - device/google/redbull-kernel - Git at Google
+
+device tree:
+refs/tags/android-14.0.0_r28 - device/google/redfin - Git at Google
+
+
+https://codeberg.org/stayboogy/stayboogy_Android-Redfin/raw/branch/14.0.0.r28/Release/screenshots/Number1.png
+
+https://codeberg.org/stayboogy/stayboogy_Android-Redfin/raw/branch/14.0.0.r28/Release/screenshots/Number2.png
+
+https://codeberg.org/stayboogy/stayboogy_Android-Redfin/raw/branch/14.0.0.r28/Release/screenshots/Number3.png
+
+https://codeberg.org/stayboogy/stayboogy_Android-Redfin/raw/branch/14.0.0.r28/Release/screenshots/Number4.png
+
+
+ALL NECESSARY FILES FOR REPRODUCTION HERE
+
+# Features
+
+- Mostly Vanilla AOSP
+
+- Call Recording Enabled and Available For Everyone Everywhere
+- Visual Voicemail
+
+- All System Apps Have A Unified Icon Theme
+- Monet Fully Available
+- Themed Icons Available
+- All System Apps Have Unified Interface Theme Based On Monet Color
+
+- No Signature Spoofing Supported
+- Traditional GApps NOT Supported
+- Meant For Those Who DO NOT NEED SPYWARE FROM GOOGLE ON THEIR DEVICE
+
+- Aurora Store Included For Convenience
+
+- Wireless Charging Working - Power Share Untested
+
+- Should Work With Most Magisk Modules and Exposed Mods based on AOSP
+
+- Music Player (Eleven) from LineageOS
+- Calendar (Etar) from LineageOS
+- Web Browser (Jelly) from LineageOS
+
+- All Other Standard Android 14 Features
+
+- Sourced on the last Public Release from Google for the Pixel 5
+- Latest Radio Version Released
+
+- Full Installer - Not Some Lame Non-Working Recovery Installer
+
+
+# Install Instructions
+
+Backup Anything You Can't Stand to Lose
+This Will Wipe All Data
+
+1) adb reboot recovery
+
+2) wipe data / factory reset
+
+3) reboot to bootloader
+
+4) fastboot devices - verify device is connected and seen
+
+5) ./install.sh [Linux]
+or
+5) install.cmd [Windows]
+
+NOTES
+
+* fastboot will most likely hang at first command
+
+** unplug device and you will see "unable to detect slot" error
+
+*** replug in device and let it go
+
+**** if when replugging device fastboot does not continue on its own, 
+run 
+./install.sh or install.cmd again and it will succeed
+
+
+Turn on your Mobile Data and Reboot after First Boot and everything should be working like normal--I opted out of using a SetupWizard as it really isn't necessary, and wastes time as you can use the phone immediately after install without having to go through a bunch of setup bs
+
+
+
+DOWNLOAD
+
+**COMING SOON**
+​

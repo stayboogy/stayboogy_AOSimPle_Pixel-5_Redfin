@@ -1,0 +1,15 @@
+rm $HOME/1428/out/target/product/redfin/android-info.txt
+rm $HOME/1428/out/target/product/redfin/boot.img
+rm $HOME/1428/out/target/product/redfin/bootloader.img
+rm $HOME/1428/out/target/product/redfin/dtbo.img
+rm $HOME/1428/out/target/product/redfin/product.img
+rm $HOME/1428/out/target/product/redfin/radio.img
+rm $HOME/1428/out/target/product/redfin/super_empty.img
+rm $HOME/1428/out/target/product/redfin/system_ext.img
+rm $HOME/1428/out/target/product/redfin/system.img
+rm $HOME/1428/out/target/product/redfin/system_other.img
+rm $HOME/1428/out/target/product/redfin/vbmeta.img
+rm $HOME/1428/out/target/product/redfin/vbmeta_system.img
+rm $HOME/1428/out/target/product/redfin/vendor_boot.img
+rm $HOME/1428/out/target/product/redfin/vendor.img
+exit

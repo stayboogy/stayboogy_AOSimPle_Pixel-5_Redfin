@@ -1,0 +1,24 @@
+mkdir $HOME/14test
+cp $HOME/1428/out/target/product/redfin/android-info.txt $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/boot.img $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/bootloader.img $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/dtbo.img $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/product.img $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/radio.img $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/super_empty.img $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/system_ext.img $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/system.img $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/system_other.img $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/vbmeta.img $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/vbmeta_system.img $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/vendor_boot.img $HOME/14test/
+cp $HOME/1428/out/target/product/redfin/vendor.img $HOME/14test/
+cp $HOME/1428/install.sh $HOME/14test/
+cp $HOME/1428/zip.lst $HOME/14test/
+cp $HOME/1428/zip.sh $HOME/14test/
+chmod 7777 $HOME/14test/install.sh
+chmod 7777 $HOME/14test/zip.sh
+cd $HOME/14test
+exec ./zip.sh
+exit
+
