@@ -15,7 +15,7 @@
 #### - Meant For Those Who DO NOT NEED SPYWARE FROM GOOGLE ON THEIR DEVICE
 #### - Aurora Store Included For Convenience
 
-![App Screenshot](https://codeberg.org/stayboogy/stayboogy_Android-Redfin/raw/branch/14.0.0.r28/Release/screenshots/Number1.png)
+![App Screenshot](https://github.com/stayboogy/stayboogy_AOSimPle_Pixel-5_Redfin/blob/f7543a0db20f10dd77914303544e77f20ef21c14/Release/screenshots/Number1.png)
 
 ![App Screenshot](https://codeberg.org/stayboogy/stayboogy_Android-Redfin/raw/branch/14.0.0.r28/Release/screenshots/Number2.png)
 
